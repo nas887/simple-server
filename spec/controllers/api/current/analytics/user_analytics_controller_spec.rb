@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe Api::Current::Analytics::UserAnalyticsController, type: :controller do
+RSpec.describe Analytics::UserAnalyticsController, type: :controller do
   render_views
 
   let!(:request_user) { FactoryBot.create(:user) }

@@ -1,4 +1,5 @@
 class Analytics::UserAnalyticsController < AnalyticsController
+  include ApiAuthentication
   layout false
 
   WEEKS_TO_REPORT = 4
